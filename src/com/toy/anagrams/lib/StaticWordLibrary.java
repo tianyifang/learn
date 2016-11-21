@@ -172,8 +172,8 @@ final class StaticWordLibrary extends WordLibrary {
      * @return true if the guess was correct; false otherwise
      */
     public boolean isCorrect(int idx, String userGuess) {
-        return userGuess.equals(getWord(idx));
-        
+        return        userGuess.equals(getWord(idx));
+           
     }
 
 }
